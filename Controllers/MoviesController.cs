@@ -91,7 +91,7 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Edit/5
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
